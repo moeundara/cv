@@ -1,0 +1,167 @@
+/*  font-family: 'Montserrat', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+em {
+  color: #fff;
+}
+
+/* Heading Section */
+.big-heading {
+  font-size: 3.5rem;
+}
+
+/* Container */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section Title */
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+
+.container-fluid #title {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar  */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.image-title {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+/* Feature Section */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-images {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Carousel Slide */
+.carousel-item {}
+
+/* Price section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+.price-header, .price-title {
+  color: #000;
+}
+
+/* Call to action section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-title {
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  background: #fff;
+}
+
+.social-icon {
+  padding: 20px 10px;
+}
+
+/* Media query section */
+@media (max-width:1028px) {
+  .image-title {
+    width: 60%;
+    transform: rotate(0);
+    position: static;
+  }
+}
